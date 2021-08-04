@@ -1,16 +1,16 @@
-- [x]1. Introduction to HTML
-- [x]2. Basic Structure of a Web Page
-- [x]3. HTML Head Tags
-- [x]4. HTML Body Tag
-- [x]5. HTML Paragraph Spacing
-- [x]6. HTML Line Breaks
-- [x]7. HTML Non-Breaking Space
-- [x]8. HTML Header Tags
-- [x]9. HTML Text Formatting and Decoration
-- [x]10. HTML Inline Text Formatting
-- [x]11. HTML Unordered Lists
-- [x]12. HTML Ordered Lists
-- [x]13. HTML Image Insertion
-- [x]14. HTML Embedding Videos
-- [x]15. HTML Absolute vs. Relative File Referencing
-- [x]16. HTML Link Creation
+- [x] 1. Introduction to HTML
+- [x] 2. Basic Structure of a Web Page
+- [x] 3. HTML Head Tags
+- [x] 4. HTML Body Tag
+- [x] 5. HTML Paragraph Spacing
+- [x] 6. HTML Line Breaks
+- [x] 7. HTML Non-Breaking Space
+- [x] 8. HTML Header Tags
+- [x] 9. HTML Text Formatting and Decoration
+- [x] 10. HTML Inline Text Formatting
+- [x] 11. HTML Unordered Lists
+- [x] 12. HTML Ordered Lists
+- [x] 13. HTML Image Insertion
+- [x] 14. HTML Embedding Videos
+- [x] 15. HTML Absolute vs. Relative File Referencing
+- [x] 16. HTML Link Creation
