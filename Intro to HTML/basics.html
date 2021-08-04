@@ -1,0 +1,105 @@
+<!-- Html communcates instructions to the web browser
+It also includes how the webpage should be presented to the viewer -->
+<!DOCTYPE html>
+<!-- line shows html document -->
+<html>
+    <!-- open -->
+<head>
+    <!-- open -->
+    <title> My First Web Page </title>
+    <!-- displays on tab -->
+    <meta name="description" content="Page Description Here"/>
+    <!-- why this webpage was made -->
+    <meta http-equiv="Content-Type" content="text/html"; charset="utf-8"/>
+    <!-- charset used -->
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!-- used by other small devices to zoom the content -->
+    <style type="text/css">
+     /* Body color should be displayed in red. Means the text */
+        Body {
+            color: red;
+        }
+
+    </style>
+    <!-- CSS-A set of rules that defines Visual Elements on HTMl webpage -->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("fname");
+            x.value = x.value.toUpperCase();
+            //It converts into upper case (input)
+        
+        }
+    </script>
+    <!-- Javascript allows us to add interactive effects on a webpage -->
+</head>
+
+<body>
+    <!-- it contains the links content text images videos displayed on screen -->
+<!-- To separate lines i ma using p tag- pararaphs -->
+   <p> This is a Sample HTML Document.</p>
+This Javascript function will capitalize my name:
+<p>Enter your name: <input type="text" id="fname" onchange="myFunction()"></p>
+<p>This is line 1<br>This is line 2 separted by br. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is spaced 5 white spaces by and nbsp.</p>
+
+<h1>Header 1</h1>
+<h2>Header 2</h2>
+<h3>Header 3</h3>
+<h4>Header 4</h4>
+<h5>Header 5</h5>
+<h6>Header 6</h6>
+
+<p>Plain Text<br>
+<b>Bold Text can be used by strong but used b</b> <br>
+<i>Italic Text by em but used i</i><br>
+<u>UnderLine Text by u</u><br>
+<strike>Strike Through strike.</strike>
+<br>
+<b><i><u>Bold Italic and Under Lined Text</u></i></b></p>
+
+<h4><font face="arial" size="10" color="blue">Personalized Arial font of 10 size from h4 with blue</font></h4>
+
+<h3>My Hobbies are</h3>
+<ul>
+    <li>Coding</li>
+    <li>Blogging</li>
+    <li>Googling</li>
+</ul>
+<br>
+<h3>My Coding platforms are</h3>
+<ol>
+    <li>GFG</li>
+    <li>CodeChef</li>
+    <li>InterviewBit</li>
+    <li>HackerRank</li>
+</ol>
+<br>
+
+<!-- Absolute vs Relative file refrencing -->
+<h1>Adding Pictures</h1>
+<!-- Realtive File Refrencing-- in same directory -->
+<img src="FL.jpg" height="250" width="333">
+<img src="LV.jpg" height="250" width="333">
+<img src="NY.jpg" height="250" width="333">
+<!-- Absolute File refrencing-- Needs full path/url -->
+<img src="https://a4abhishekkmr.github.io/assets/img/aa.png" height="250" width="333">
+
+<h1>Video tag</h1>
+<!-- Use autoplay if you want to autoplay(only in desktop) and user dont be able to control over that -->
+
+<video width=40% controls>
+    <source src="ya.mp4" type="video/mp4">
+    Your Browser not supports video tag.
+
+</video>
+<br>
+<h4>Click on the Image below.</h4>
+<!-- Linking webpage -->
+<a href="https://a4abhishekkmr.github.io/"><img src="https://a4abhishekkmr.github.io/assets/img/aa.png" height="333" width="333">
+</a>
+<p>
+    <a href="https://a4abhishekkmr.github.io/">Click on this Link (same Window)</a><br> 
+    <a href="https://a4abhishekkmr.github.io/" target="-blank"> on Clicking this target="-blank"(new Window)</a>
+</p>
+</body>
+
+</html>
