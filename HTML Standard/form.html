@@ -1,0 +1,75 @@
+<!doctype html>
+
+<html>
+
+	<head>
+		<title>Table Tutorial</title>
+		<meta charset="utf-8">
+	</head>
+
+
+<body>
+
+<form name="employment" action="send.php" method="post">
+ <table width="600" border="1" cellspacing="2" cellpadding="2">
+    <tr>
+      <td colspan="2">Employment Application</td>
+      
+    </tr>
+    <tr>
+      <td>First Name</td>
+      <td><input type="text" name="fname" maxlength="50"/></td>
+    </tr>
+    <tr>
+      <td>Last Name</td>
+      <td><input type="text" name="lname" maxlength="5"/></td>
+    </tr>
+    <tr>
+      <td>Position</td>
+      <td><select name="select Position">
+        <option value="Ac">Accountant</option>
+        <option value="Ad">Admin</option>
+        <option value="Su">Supervisor</option>
+        <option value="Re">Receptionist</option>
+      </select></td>
+    </tr>
+    <tr>
+      <td>Experience Level</td>
+      <td><select name="experience">
+        <option value="en">Entry Level</option>
+        <option value="be">Beginner</option>
+        <option value="Ex">Expert</option>
+        <option value="Ad">Admin</option>
+      </select></td>
+    </tr>
+    <tr>
+      <td>Job Type</td>
+      <td><input type="checkbox" name="ft" />Full Time
+      <input type="checkbox" name="pt" />Part Time
+      <input type="checkbox" name="ct" />Contract</td>
+    </tr>
+    <tr>
+      <td>Employment Type</td>
+      <td><input type="radio" name="Estatus" value="employed"/>Employed
+        <input type="radio" name="Estatus" value="unemployed"/>Un-Employed
+        <input type="radio" name="Estatus" value="Student"/>Student
+      </td>
+    </tr>
+    <tr>
+      <td>Additional Comments</td>
+      <td>
+        <textarea name="comments" cols="45" rows="5"></textarea>
+      </td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>
+        <input type="submit" name="submit" value="submit"/>
+        <input type="reset" name="reset" value="reset"/>
+      </td>
+    </tr>
+  </table>
+</form>
+
+</body>
+</html>
