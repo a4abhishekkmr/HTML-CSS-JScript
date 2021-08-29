@@ -1,0 +1,99 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text of js</title>
+    <h1 id="h"></h1>
+    <h1 id="h1"></h1>
+    <p id="demo"></p>
+    <h3 id="out"></h3>
+    <p id=len></p>
+    <p id=min></p>
+    <p id=ran></p>
+    <p id=arr></p>
+    <p id=round></p>
+    <p id="output"></p>
+    <p id=sep></p>
+    <p id=see></p>
+    <h3 id=cop></h3>
+    <p id=combo></p>
+    <script>
+         //document.getElementById("h").innerHTML="TEXT output";
+    
+    var x=5;
+    var u=14;
+    var z=x+u;
+    var s="111sd";
+    var d=s+x;
+    document.getElementById("h").innerHTML=z;
+    document.getElementById("h1").innerHTML=d;
+
+    // object 
+    var car={type:"Racing",model:"Mustang",color:'blue',year:2021,dna:"racing"};
+    document.getElementById("demo").innerHTML=car.type;
+    document.getElementById("out").innerHTML=
+    car.color+" "+car.model+" purchased on "+car.year+"<br>"+car.type;
+    
+    document.getElementById("len").innerHTML=s.length;
+    document.getElementById("ran").innerHTML=Math.random();
+    // random no between 0 and 1 
+
+    document.getElementById("min").innerHTML=Math.min(112,123,44,55,667);
+    //document.getElementById("min").innerHTML=Math.max(112,123,44,55,667);
+    
+    document.getElementById("round").innerHTML=Math.round(15.4);
+    // math.floor=15 and math.ceil=16 
+
+    // Arrays
+    var fruits=["apple","banana","pear","mango","orange"];
+    document.getElementById("arr").innerHTML=fruits[2];
+    //document.getElementById("arr").innerHTML=fruits.length;
+    //0 based indexing
+
+    document.getElementById("output").innerHTML=fruits.toString();
+    fruits.pop();
+    document.getElementById("sep").innerHTML=fruits.join(" aur ");
+    
+    fruits.shift();
+    //front remove
+
+    fruits.push("cherry");
+    //push at end
+
+    //push at beginning
+    fruits.unshift("blossom");
+    fruits[2]="kiwi";
+
+    // delete indexed
+    delete fruits[3];
+
+    //Add multiple inbetween array
+    // starts with 2 and 0 says i dont want to remove any elemet 
+    fruits.splice(2,0,"Abhishek","Kumar");
+    document.getElementById("see").innerHTML=fruits.join(" ye ");
+    
+    //sort array using alphabetically
+    var cars=["maruti","hyundia","mahindra","bmw","ford"];
+    cars.sort();
+    //to reverse
+    //cars.reverse();
+    document.getElementById("cop").innerHTML=cars;
+    
+    var bikes=["hero","honda","suzuki","tvs"];
+    var combined =cars.concat(bikes);
+    document.getElementById("combo").innerHTML=combined;
+
+    </script>
+</head>
+<body>
+    <p>The Results will be displayed below this line</p>
+    <script type="Text/javascript">
+    document.write(5+6);
+    window.alert(5*6);
+    </script>
+   
+<p id="math"></p>
+
+</body>
+</html>
