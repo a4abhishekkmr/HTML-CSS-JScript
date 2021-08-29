@@ -15,16 +15,15 @@ A Comprehensive Guide for those who are interested in learning HTML, CSS, &amp; 
 
 
 ### The CSS section of this course covers the following key concepts:
-- [ ] CSS Rules
-- [ ] CSS Classes
-- [ ] Divisions
-- [ ] CSS Id's
-- [ ] Margins, Padding
-- [ ] Font Properties
-- [ ] Backgrounds & Transparency
-- [ ] Positioning
-- [ ] Link Styling
-- [ ] CSS Tables
+- [x] CSS Rules
+- [x] CSS Classes
+- [x] Divisions
+- [x] CSS Id's
+- [x] Margins, Padding
+- [x] Font Properties
+- [x] Backgrounds & Transparency
+- [x] Positioning
+- [x] Link Styling
 
 
 ### The JavaScript section covers the following key concepts:
