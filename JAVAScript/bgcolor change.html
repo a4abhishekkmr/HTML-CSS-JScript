@@ -1,18 +1,21 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Random colors</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JavaScript Exercise</title>
 </head>
+
 <body>
-    <script>
-        var backColor = new Array();
-backColor[0] = '#000000';
-backColor[1] = '#111111';
-backColor[2] = '#222222';
-backColor[3] = '#333333';
-        document.body.style.background=backcolor[Math.floor(Math.random()*backcolor.length)];
-    </script>
+
+<script>
+
+var bgcolor=new Array("#029FD4", "#D43702", "#1EFF00", "#EAEAFF", "#FFEA00", "#AB5252", "#FFFFFF", "#DE28D8")
+
+document.body.style.background=bgcolor[Math.floor(Math.random()*bgcolor.length)]
+
+</script>
+
 </body>
+
 </html>
